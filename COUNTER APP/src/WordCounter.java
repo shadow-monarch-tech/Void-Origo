@@ -8,7 +8,7 @@ public class WordCounter {
     public static void main(String[] args) throws IOException {
 
         // Create Input stream & scanner
-        FileInputStream fin = new FileInputStream("DORIAN.txt");
+        FileInputStream fin = new FileInputStream("POEM.txt");
         Scanner fileInput = new Scanner(fin);
 
         // Create the ArrayLists
